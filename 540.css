@@ -105,6 +105,7 @@
 
     /* QUEM SOMOS */
     .quem-somos {
+        overflow-y: hidden;
         padding: 20px !important;
     }
 
