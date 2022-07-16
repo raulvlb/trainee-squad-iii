@@ -87,38 +87,26 @@ body {
   letter-spacing: -3px;
 }
 
-.home button {
+.home-txt a {
+  overflow-y: hidden;
+  margin-top: 20px !important;
+  text-decoration: none;
+  color: #003d73;
+  text-align: center;
+  font: 800 30px 'Barlow', sans-serif;
+  width: 70%;
+  height: 70px;
+  border: solid 4px #003d73;
+  border-radius: 18px;
   display: flex;
   justify-content: center;
-  border: none;
-  width: 70%;
-  background-color: #9fecfe;
   align-items: center;
-  margin-top: 40px !important;
-  border-radius: 18px;
-  border: solid 4px #003d73;
-  height: 70px;
-  font: 800 30px 'Barlow', sans-serif;
-  color: #003d73;
-  letter-spacing: -1px;
 }
 
-.home button:hover {
-  cursor: pointer;
-  background-color: #003d60;
+.home-txt a:hover {
+  text-decoration: none;
   color: #9fecfc;
-  border: none;
-  animation: tremer .8s linear infinite;
-  animation-iteration-count: infinite;
-}
-
-.home button a{
-  text-decoration: none;
-  color: #003d60;
-}
-.home button a:hover{
-  text-decoration: none;
-  color: #ffffff;
+  background-color: #003d73;
 }
 
 @keyframes tremer {
